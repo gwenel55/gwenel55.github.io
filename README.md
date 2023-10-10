@@ -1,5 +1,3 @@
-# gwenel55.github.io
-Portfolio of Coding Projects
 # Portfolio Template
 
 ### A beautiful minimal and accessible portfolio template for Developers ✨.
