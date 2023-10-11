@@ -35,9 +35,9 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    --pink: #87ae73;
     --white: #f0e9f2;
-    --white-1: #e5e5e6da;
+    --white-1: #f0e9f2;
 
 
     --container-max-width: 1180px;
@@ -218,7 +218,7 @@ body:not(.user-is-tabbing) a:focus {
     display: inline-block;
     padding: 1rem 4.2rem;
     text-decoration: none;
-    color: inherit;
+    color: var(--white);
     border: 1px solid  var(--pink);
     font-weight: 400;
 }
@@ -264,11 +264,20 @@ body:not(.user-is-tabbing) a:focus {
     position: relative;
     display: inline-block;
     padding: .6rem;
-    color: inherit;
+    color: var(--white);
     text-decoration: none;
     border-bottom: 1px solid var(--pink);
 }
 
+.visit_text {
+    pointer-events: none;
+    position: relative;
+    display: inline-block;
+    padding: .6rem;
+    color: var(--white);
+    text-decoration: none;
+    border-bottom: 1px solid var(--pink);
+}
 .link__text::after {
     content: '';
     display: block;
@@ -373,7 +382,7 @@ body:not(.user-is-tabbing) a:focus {
     display: inline-block;
     padding: 1rem 0;
     text-decoration: none;
-    color: inherit;
+    color: white;
     transition: all .2s;
 }
 
@@ -405,7 +414,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./PortfolioPictures/darkerbackgroundimagelinkedin.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
