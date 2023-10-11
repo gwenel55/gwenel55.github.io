@@ -1,1 +1,0 @@
-Gwen Litwak Portfolio Page
